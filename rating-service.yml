@@ -4,3 +4,4 @@ server:
 spring:
   application:
     name: rating-service
+application.name: rating-service-update
