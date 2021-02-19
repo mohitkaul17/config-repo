@@ -1,9 +1,17 @@
 
-management.security.enabled=false
-management.endpoints.web.exposure.include=*
+management:
+    security:
+      enabled: false
+    endpoints:
+      web:
+        exposure:
+          include:"*"
 
-#RabbitMQ connection details
-spring.rabbitmq.host=localhost
-spring.rabbitmq.port=5672
-spring.rabbitmq.username=guest
-spring.rabbitmq.password=guest
+  #RabbitMQ connection details
+  spring:
+    rabbitmq:
+      host:localhost
+      port=5672
+      username=guest
+      password=guest
+
