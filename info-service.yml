@@ -4,3 +4,4 @@ my.name: mohit
 spring:
   application:
     name: info-service
+application.name: info-service-update
