@@ -17,7 +17,11 @@ spring:
   zipkin:
     base-url: "http://localhost:9411/"
     enabled: true
-    
+  vault:
+    port: 8200
+    scheme: http
+    authentication: token
+    token: s.2UoASbr6PBaJ27KyeYFJFZ1d
 
 logging:
   level:
