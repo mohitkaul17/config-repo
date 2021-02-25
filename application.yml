@@ -22,7 +22,7 @@ spring:
       host: localhost
       scheme: http
       authentication: token
-      token: s.2UoASbr6PBaJ27KyeYFJFZ1d
+      token: s.MLT0aZ4FLacSBKQl6bfuw86T
 
 
 logging:
