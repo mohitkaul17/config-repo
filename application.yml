@@ -1,29 +1,30 @@
 
 management:
-    security:
-      enabled: false
-    endpoints:
-      web:
-        exposure:
-          include: "*"
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
   #RabbitMQ connection details
 spring:
   rabbitmq:
     host: localhost
     port: 5672
-#     username: guest
-#     password: guest
+  #     username: guest
+  #     password: guest
   zipkin:
     base-url: "http://localhost:9411/"
     enabled: true
   cloud:
-      vault:
-        port: 8200
-        scheme: http
-        authentication: token
-        token: s.2UoASbr6PBaJ27KyeYFJFZ1d
+    vault:
+      port: 8200
+      scheme: http
+      authentication: token
+      token: s.2UoASbr6PBaJ27KyeYFJFZ1d
 
 logging:
   level:
     org.springframework: DEBUG
+
