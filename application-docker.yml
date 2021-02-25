@@ -1,0 +1,26 @@
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  #RabbitMQ connection details
+spring:
+  rabbitmq:
+    host: rabbitmq
+    addresses: rabbitmq:5672
+  zipkin:
+    base-url: "http://zipkin-server:9411/"
+    enabled: true
+  cloud:
+    vault:
+    host: vault
+
+
+
+logging:
+  level:
+    org.springframework: ERROR
+
