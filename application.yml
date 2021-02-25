@@ -18,6 +18,9 @@ spring:
     enabled: true
   cloud:
     vault:
+      kv:
+        enabled: true
+        backend: secret
       port: 8200
       host: localhost
       scheme: http
