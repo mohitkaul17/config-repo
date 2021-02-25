@@ -17,13 +17,12 @@ spring:
     base-url: "http://localhost:9411/"
     enabled: true
   cloud:
-    config:
-#      port: 8200
-#      host: 127.0.0.1
-#      scheme: http
-#      authentication: token
+    vault:
+      port: 8200
+      host: 127.0.0.1
+      scheme: http
+      authentication: token
       token: s.2UoASbr6PBaJ27KyeYFJFZ1d
-      uri: http://localhost:8888
 
 
 logging:
