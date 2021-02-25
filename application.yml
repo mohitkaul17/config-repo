@@ -19,7 +19,7 @@ spring:
   cloud:
     vault:
       port: 8200
-      host: 127.0.0.1
+      host: localhost
       scheme: http
       authentication: token
       token: s.2UoASbr6PBaJ27KyeYFJFZ1d
