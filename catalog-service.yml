@@ -3,5 +3,6 @@ server:
 spring:
   application:
     name: catalog-service
-new.update: new-update
+new.update: web-hook
+
 
