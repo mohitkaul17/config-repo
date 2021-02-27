@@ -4,3 +4,4 @@ spring:
   application:
     name: rating-service
 
+new.update: new-update

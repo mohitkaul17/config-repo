@@ -3,5 +3,5 @@ server:
 spring:
   application:
     name: catalog-service
-my.name: mohit
+new.update: new-update
 
