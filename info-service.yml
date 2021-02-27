@@ -3,5 +3,6 @@ server:
 spring:
   application:
     name: info-service
+my.name: mohit
 
 
