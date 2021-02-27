@@ -14,10 +14,6 @@ spring:
   zipkin:
     base-url: "http://zipkin-server:9411/"
     enabled: true
-  cloud:
-    vault:
-    host: vault
-
 
 
 logging:
