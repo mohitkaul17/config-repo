@@ -1,8 +1,14 @@
 server:
   port: ${PORT:8081}
 spring:
-  application:
-    name: catalog-service
-new.update: web-hook
-
+  cloud:
+    vault:
+      kv:
+        enabled: true
+        backend: secret
+      port: 8200
+      host: localhost
+      scheme: http
+      authentication: token
+      token: 934f9eae-31ff-a8ef-e1ca-4bea9e07aa09
 
